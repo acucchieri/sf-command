@@ -33,18 +33,18 @@ Reload your bash
 
 You must run `sf` command from your project root directory
 
-    [john@foo Symfony2]# sf do<tab>
-                       # sf doctrine:
-                       # sf doctrine:<tab>
+    [john@foo Symfony2]$ sf do<tab>
+                       $ sf doctrine:
+                       $ sf doctrine:<tab>
     cache:clear-metadata        database:create             generate:crud               generate:form               mapping:info                schema:create               schema:validate             
     cache:clear-query           database:drop               generate:entities           mapping:convert             query:dql                   schema:drop                 
     cache:clear-result          ensure-production-settings  generate:entity             mapping:import              query:sql                   schema:update               
-                       # sf doctrine:s<tab>
-                       # sf doctrine:schema:
-                       # sf doctrine:schema:up<tab>
-                       # sf doctrine:schema:update
-                       # sf doctrine:schema:update --<tab>
+                       $ sf doctrine:s<tab>
+                       $ sf doctrine:schema:
+                       $ sf doctrine:schema:up<tab>
+                       $ sf doctrine:schema:update
+                       $ sf doctrine:schema:update --<tab>
     --ansi           --dump-sql        --env             --help           --no-debug           --process-isolation  --shell         --version            
     --complete       --em              --force           --no-ansi        --no-interaction     --quiet              --verbose       
-                       # sf doctrine:schema:update --du<tab>
-                       # sf doctrine:schema:update --dump-sql 
+                       $ sf doctrine:schema:update --du<tab>
+                       $ sf doctrine:schema:update --dump-sql 
