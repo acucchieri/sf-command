@@ -1,6 +1,6 @@
 #Sf Command
 
-`sf` command is an alias of php app/consol symfony command
+`sf` command is an alias of `php app/console` symfony command
 Use
 
     sf cache:clear
@@ -29,7 +29,9 @@ Add sf.bash in bash autocomplete directory (eg: /etc/bash_completion.d)
 Reload your bash
 
 
-## Exemple
+## Usage
+
+You must run `sf` command from your project root directory
 
     [john@foo Symfony2]# sf do<tab>
                        # sf doctrine:
