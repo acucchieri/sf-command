@@ -1,7 +1,6 @@
 #!/bin/bash
 
-if [ ! -f app/console ]
-then
+if [ ! -f app/console ] ; then
     echo -e '\033[41;37;1m'
     printf "Unable to find $PWD/app/console\n"
     printf "$PWD is it your project root directory ?"
@@ -9,16 +8,14 @@ then
     exit 
 fi
 
-if [ $# = 0 ]
-then
+if [ $# = 0 ] ; then
     php app/console
     exit
 fi
 
 cmd="php"
 
-if [ $1 != "app/console"  ]
-then
+if [ $1 != "app/console"  ] ; then
     cmd+=" app/console"
 fi
 
